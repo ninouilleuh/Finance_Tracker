@@ -2,13 +2,11 @@ SEPARATOR = " | "
 
 def input_category(message):
     while True:
-        try:
-            category = input(message)
-            if category.strip() == "":
-                raise ValueError("Category cannot be empty.")
-            return category
-        except ValueError as e:
-            print(f"Error: {e}")     
+        category = input(message)
+        if category.strip() == "":
+            print("Category cannot be empty.")
+            continue
+        return category
 
 def readfile(txtfile):
     try:
