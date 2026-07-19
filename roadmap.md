@@ -1,52 +1,36 @@
-# Finance Tracker Roadmap
+# 💰 Finance Tracker Roadmap
 
-## Current Version (v0.1)
+## Current Version (v1.0)
 
 ### ✅ Completed
 
-* Add new expense
-* Save expenses to a file
-* Load previous expenses
-* Input validation
-* Statistics by category
-* Total spent
-* Highest spending category
-* Menu system
+- Add new expenses
+- Delete expenses with confirmation
+- Load previous expenses
+- Save expenses automatically
+- Input validation
+- Error handling
+- Statistics by category
+- Total amount spent
+- Highest spending category
+- Menu-driven interface
+- Refactored code with reusable functions
+- Centralized file loading and saving
 
 ---
 
-# Next Features
+# 🚀 Next Features
 
-## 1. Delete an Expense
-
-**Priority:** High
-
-Allow the user to:
-
-* View all expenses with numbers.
-* Select one to delete.
-* Save the updated list.
-
-Example:
-
-```
-1. Food | 20
-2. Games | 50
-3. Rent | 800
-
-Choose an expense to delete:
-```
-
----
-
-## 2. Edit an Expense
+## 1. Edit an Expense
 
 **Priority:** High
 
-Instead of deleting an incorrect expense, allow the user to edit:
+Allow the user to modify an existing expense instead of deleting it.
 
-* Category
-* Amount
+The user should be able to edit:
+
+- Category
+- Amount
 
 Example:
 
@@ -62,6 +46,28 @@ New amount:
 
 ---
 
+## 2. Expense Dates
+
+**Priority:** High
+
+Store the date for every expense.
+
+Current format:
+
+```
+Food | 20
+```
+
+New format:
+
+```
+2026-07-19 | Food | 20
+```
+
+This prepares the project for monthly reports and searching by date.
+
+---
+
 ## 3. Search Expenses
 
 **Priority:** Medium
@@ -72,7 +78,6 @@ Example:
 
 ```
 Search:
-
 Food
 ```
 
@@ -88,28 +93,41 @@ Total: 56
 
 ---
 
-## 4. Income & Balance
+## 4. Monthly Reports
 
-**Priority:** High
+**Priority:** Medium
 
-Add income tracking.
+Generate spending summaries by month.
 
-Menu:
+Example:
 
 ```
-1. Add income
-2. Add expense
+July 2026
+
+Food: 120
+Transport: 42
+Games: 60
+
+Total: 222
 ```
-
-The application should display:
-
-* Total income
-* Total expenses
-* Current balance
 
 ---
 
-## 5. Savings Goal
+## 5. Income & Balance
+
+**Priority:** High
+
+Track income in addition to expenses.
+
+The application should display:
+
+- Total income
+- Total expenses
+- Current balance
+
+---
+
+## 6. Savings Goal
 
 **Priority:** Medium
 
@@ -122,39 +140,39 @@ Goal: €15,000
 
 Saved: €3,200
 
-Progress:
+Progress
 
 ████░░░░░░░░░░░░░ 21%
 ```
 
-This feature is intended to help track progress toward moving to Japan.
+---
+
+# 🌱 Future Features
+
+- Debt tracker
+- Settings menu
+- JSON storage
+- SQLite database
+- Export reports (CSV)
+- Currency conversion (EUR ⇄ JPY)
+- ASCII charts
+- Multiple user profiles
+- Budget limits and alerts
+- Recurring expenses
 
 ---
 
-# Future Features
+# 🎯 Long-Term Goal
 
-* Monthly reports
-* Expense dates
-* Debt tracker
-* JSON storage
-* Settings menu
-* Export reports
-* Currency conversion (EUR ⇄ JPY)
-* ASCII charts
-* Multiple user profiles
-
----
-
-# Long-Term Goal
-
-Transform this project from a beginner Python exercise into a polished command-line finance application suitable for a GitHub portfolio.
+Transform this project from a beginner Python application into a polished command-line finance tracker.
 
 The project should demonstrate:
 
-* Clean code
-* Modular architecture
-* Input validation
-* File handling
-* Data processing
-* Software design
-* Git version history
+- Clean code
+- Modular architecture
+- Input validation
+- File handling
+- Data processing
+- Software design
+- Refactoring
+- Version control with Git

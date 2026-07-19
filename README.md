@@ -2,34 +2,51 @@
 
 A command-line personal finance tracker written in Python.
 
-This project is part of my journey to becoming a backend developer and eventually moving to Japan.
+This project is part of my journey to becoming a backend developer and eventually building a career in Japan.
+
+---
 
 ## Features
 
 Current features:
 
 - Add expenses
-- Save expenses to a file
-- Read previous expenses
+- Delete expenses
+- View previous expenses
+- Statistics by category
+- Total amount spent
+- Highest spending category
+- Automatic saving to a text file
 - Input validation
 - Error handling
+- Menu-driven interface
+
+---
 
 ## Planned Features
 
-- Add income
-- Expense categories
+- Edit expenses
+- Add expense dates
+- Monthly reports
 - Savings goals
 - Debt tracking
 - Search expenses
-- Monthly reports
-- Statistics
 - Settings
 - JSON data storage
+- Database version (SQLite)
 - Currency conversion (EUR ⇄ JPY)
+
+---
 
 ## Technologies
 
 - Python
+- File handling
+- Functions
+- Lists
+- Dictionaries
+
+---
 
 ## How to Run
 
@@ -37,19 +54,33 @@ Current features:
 python main.py
 ```
 
-## Goals
+---
 
-The goal is to practice:
+## Learning Goals
+
+This project is helping me practice:
 
 - Variables
 - Functions
+- Loops
 - Lists
 - Dictionaries
 - File handling
+- Input validation
 - Error handling
+- Code refactoring
 - Modular programming
-- Object-Oriented Programming
+- Object-oriented programming (future versions)
+
+---
+
+## Data Storage
+
+Expenses are stored locally in `expenses.txt`.
+
+The file is automatically created the first time you add an expense and is not included in the Git repository.
+---
 
 ## Author
 
-Created by Nina as part of a long-term learning project.
+Created by **Nina Palomares** as part of a long-term learning journey toward backend software development.
