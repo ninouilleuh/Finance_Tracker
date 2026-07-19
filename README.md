@@ -79,6 +79,7 @@ This project is helping me practice:
 Expenses are stored locally in `expenses.txt`.
 
 The file is automatically created the first time you add an expense and is not included in the Git repository.
+
 ---
 
 ## Author
