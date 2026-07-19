@@ -2,7 +2,7 @@
 
 A command-line personal finance tracker written in Python.
 
-This project is part of my journey to becoming a backend developer and eventually building a career in Japan.
+This project is part of my journey to becoming a backend developer.
 
 ---
 
